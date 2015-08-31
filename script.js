@@ -1,5 +1,7 @@
 $(document).ready(function(){
     $('div').click(function(){
-        alert("Clicked a div!");
-    })
+    });
+    $('p').click(function(){
+        this.setText("xxxxxx");
+    });
 });
